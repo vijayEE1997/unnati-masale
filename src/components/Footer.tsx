@@ -275,7 +275,17 @@ const Footer = () => {
             <Link to="/quality" className="text-muted-foreground hover:text-primary transition-colors animate-fade-in">
               Quality Policy
             </Link>
-           
+          <p className="text-gray-600 text-xs">
+            Made by{' '}
+            <a
+              href="https://thethinkverse.ai"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-teal hover:text-mint transition-colors"
+            >
+              ThinkVerse.AI
+            </a>
+          </p>
           </div>
         </div>
       </div>
